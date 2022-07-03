@@ -20,7 +20,7 @@ useEffect(()=>{
     >  
    
       <div className='content'>
-        <h1 className='title'>{movie ? movie.name:"movie"}</h1>
+        <h1 className='title'>{movie ? movie.title:"movie"}</h1>
         <div className='banner_buttons'>
           <button className='button'>play</button>
           <button className='button'>mylist</button>
