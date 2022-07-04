@@ -1,5 +1,6 @@
 import NavBar from "./Components/NavBar/NavBar";
-import{ActionMovies,ComedyMovies,HorrorMovies,Originals, RomanceMovies,} from "./Components/Urls"
+import{ActionMovies,ComedyMovies,HorrorMovies,Originals, RomanceMovies,Documentaries} from "./Components/Urls"
+
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import RowPost from "./Components/RowPost/RowPost";
@@ -13,6 +14,8 @@ function App() {
         <RowPost  url={ComedyMovies} title="Comedy" isSmall/>
         <RowPost  url={HorrorMovies} title="Horror" isSmall/>
         <RowPost  url={RomanceMovies} title="Romance" isSmall/>
+        <RowPost  url={Documentaries} title="Documentries" isSmall/>
+        
         
     </div>
   );
